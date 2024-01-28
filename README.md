@@ -1,18 +1,18 @@
-### FORG 🧮
+## FORG 🧮
 - A *command-line* tool to organize your files on your system.
   
   ### Supports
   
-- **audio**,
-- **video**,
-- **pictures**,
-- **spreadsheets**,
-- **apps**,
-- **csv**,
-- **text**,
-- **pdf**,
-- **documents**,
-- **powerpoints**,
+- **audio**
+- **video**
+- **pictures**
+- **spreadsheets**
+- **apps**
+- **csv**
+- **text**
+- **pdf**
+- **documents**
+- **powerpoints**
 - **zip**
 - **crdownloads**
 
