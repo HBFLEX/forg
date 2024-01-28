@@ -21,8 +21,8 @@
 
 #### USAGE
 
-- #####LINUX OS
-   - Download the executable files here -> [Download Forg](https://drive.google.com/file/d/1ovDBVemfBWe923QMITXi0nIHREransEH/view?usp=drive_link)
+- #####WINDOWS OS
+   - Download the executable files here -> [Download Forg](https://drive.google.com/file/d/15ysu_RT9bm0VGJyAMg8BxJXDqvUU_Xj9/view?usp=drive_link)
    - After downloading, add the executable to path.
    - Then run the following command in your terminal.
    **forg dir_name_here**
