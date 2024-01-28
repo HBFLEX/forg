@@ -19,7 +19,7 @@ let dirFileExt: FileStructure[] = [];
 
 const organizeDir = async () => {
 
-  if(directory === '' || directory === undefined) console.error('Error: Specify the directory to organize');
+  if(directory === '' || directory === undefined) console.error('Error: Specify the directory to organize -> forg <directory name here>');
 
   try{
     const files = await file_handler(directory, dirFileExt);
