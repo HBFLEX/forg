@@ -37,7 +37,7 @@ const handleDir = (exts: string []): void => {
     createNewDir('word_documents');
   }
 
-  if(exts.includes('zip')){
+  if(exts.includes('zip') || exts.includes('gz') || exts.includes('tgz')){
     createNewDir('zip_files');
   }
 
@@ -53,7 +53,7 @@ const handleDir = (exts: string []): void => {
     createNewDir('csv_files');
   }
 
-  if(exts.includes('deb') || exts.includes('exe')){
+  if(exts.includes('deb') || exts.includes('exe') || exts.includes('run')){
     createNewDir('apps');
   }
 }
