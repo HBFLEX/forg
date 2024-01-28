@@ -17,7 +17,7 @@
 - **crdownloads**
 
 > Forg simply moves files in your directory to their respective directories.
-> Making it easy for you to worry about organizing your files manually.
+> Making it easy for you not to worry about organizing your files manually.
 
 #### USAGE
 
@@ -25,7 +25,7 @@
    - Download the executable files here -> [Download Forg](https://drive.google.com/file/d/1ovDBVemfBWe923QMITXi0nIHREransEH/view?usp=drive_link)
    - After downloading, add the executable to path.
    - Then run the following command in your terminal.
-   > **forg <directory>**
+   **forg dir_name_here**
 
    ##### Example
-  > **forg .**
+   - **forg .**
