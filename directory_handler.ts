@@ -17,7 +17,7 @@ const handleDir = (exts: string []): void => {
     createNewDir('videos');
   }
 
-  if(exts.includes('png') || exts.includes('jpg') || exts.includes('jpeg') || exts.includes('gif')){
+  if(exts.includes('png') || exts.includes('jpg') || exts.includes('jpeg') || exts.includes('webp') || exts.includes('gif')){
     createNewDir('pictures');
   }
 
@@ -37,7 +37,7 @@ const handleDir = (exts: string []): void => {
     createNewDir('word_documents');
   }
 
-  if(exts.includes('zip') || exts.includes('gz') || exts.includes('tgz')){
+  if(exts.includes('zip') || exts.includes('gz') || exts.includes('tgz') || exts.includes('xz')){
     createNewDir('zip_files');
   }
 
@@ -53,7 +53,7 @@ const handleDir = (exts: string []): void => {
     createNewDir('csv_files');
   }
 
-  if(exts.includes('deb') || exts.includes('exe') || exts.includes('run')){
+  if(exts.includes('deb') || exts.includes('exe') || exts.includes('run') || exts.includes('bin')){
     createNewDir('apps');
   }
 }

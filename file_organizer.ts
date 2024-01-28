@@ -21,7 +21,7 @@ const organizer = (directory: string, files: FileStructure[]):void => {
           mvFileToDir(`${directory}/${f.file.file.name}`, `${directory}/music/${f.file.file.name}`);
         }
   
-        if(f.file.ext === 'png' || f.file.ext === 'jpg' || f.file.ext === 'jpeg' || f.file.ext === 'gif'){
+        if(f.file.ext === 'png' || f.file.ext === 'jpg' || f.file.ext === 'jpeg' || f.file.ext === 'webp' || f.file.ext === 'gif'){
           mvFileToDir(`${directory}/${f.file.file.name}`, `${directory}/pictures/${f.file.file.name}`);
         }
     
@@ -41,7 +41,7 @@ const organizer = (directory: string, files: FileStructure[]):void => {
           mvFileToDir(`${directory}/${f.file.file.name}`, `${directory}/word_documents/${f.file.file.name}`);
         }
   
-        if(f.file.ext === 'zip' || f.file.ext === 'gz' || f.file.ext === 'tgz'){
+        if(f.file.ext === 'zip' || f.file.ext === 'gz' || f.file.ext === 'tgz' || f.file.ext === 'xz'){
           mvFileToDir(`${directory}/${f.file.file.name}`, `${directory}/zip_files/${f.file.file.name}`);
         }
   
@@ -57,7 +57,7 @@ const organizer = (directory: string, files: FileStructure[]):void => {
           mvFileToDir(`${directory}/${f.file.file.name}`, `${directory}/csv_files/${f.file.file.name}`);
         }
   
-        if(f.file.ext === 'deb' || f.file.ext === 'exe' || f.file.ext === 'run'){
+        if(f.file.ext === 'deb' || f.file.ext === 'exe' || f.file.ext === 'run' || f.file.ext === 'bin'){
           mvFileToDir(`${directory}/${f.file.file.name}`, `${directory}/apps/${f.file.file.name}`);
         }
       });
