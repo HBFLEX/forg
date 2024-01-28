@@ -15,7 +15,7 @@ const getDirFileObj = async (dir: string, dirFileExt: FileStructure[]): Promise<
   
       const cwd = dir === '.' ? Deno.cwd() : dir;
   
-      for await(const file of await Deno.readDir(cwd)){
+      for await(const file of Deno.readDir(cwd)){
         if(file.isFile){
           fileSegments = file.name.split('.');
           fileExt = fileSegments[fileSegments.length - 1];
