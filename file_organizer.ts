@@ -1,10 +1,8 @@
 // Author: HBFL3X
 // EMAIL: hbfl3x@gmail.com
 
+import FileStructure from './interfaces/file_structure.ts'
 
-interface FileStructure{
-    file: { file: Deno.DirEntry, ext: string };
-}
 
 const mvFileToDir = (file: string, dir: string): void => {
     Deno.rename(file, dir).catch((_) => console.error(`failed to move ${file} -> ${dir}`))

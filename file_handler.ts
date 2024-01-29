@@ -1,10 +1,7 @@
 // Author: HBFL3X
 // EMAIL: hbfl3x@gmail.com
+import FileStructure from './interfaces/file_structure.ts'
 
-
-interface FileStructure{
-    file: { file: Deno.DirEntry, ext: string };
-}
 
 const getDirFileObj = async (dir: string, dirFileExt: FileStructure[]): Promise<FileStructure[]> => {
     // deno-lint-ignore no-inferrable-types

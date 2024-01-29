@@ -5,13 +5,12 @@
 import { handleDir } from "./directory_handler.ts";
 import file_organizer from './file_organizer.ts'
 import file_handler from './file_handler.ts'
+import FileStructure from './interfaces/file_structure.ts'
+
 
 // // get the command line arguments -> directory name
 const { args: [directory] } = Deno;
 
-interface FileStructure{
-  file: { file: Deno.DirEntry, ext: string };
-}
 
 // deno-lint-ignore prefer-const
 let dirFileExt: FileStructure[] = [];
